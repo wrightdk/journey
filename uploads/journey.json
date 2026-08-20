@@ -1,0 +1,389 @@
+{
+  "person": {
+    "name": "André Korobeinikoff",
+    "laterName": "André Korbey (also recorded as Andre Korby)",
+    "born": "1882-10-16",
+    "died": "1953-03-02",
+    "summary": "Born to a peasant family in the Voronezh region of Russia; imprisoned as a young man during the unrest of 1905; studied engineering in Belgium; served with a British-organised medical relief unit in Serbia in 1915; settled permanently in England, married, raised three children, and became a naturalised British subject in 1935."
+  },
+
+  "sources": [
+    {
+      "id": "memoir",
+      "title": "Family memoir (handwritten account, author unnamed — written by a descendant's wife)",
+      "type": "family oral history",
+      "notes": "Written well after the events described, likely decades later, based on family recollection rather than contemporaneous records. Warmest and most detailed on the early Russian/Siberian/Balkan period, which no official record corroborates."
+    },
+    {
+      "id": "specialbranch",
+      "title": "Metropolitan Police Special Branch report on naturalisation application, 15 October 1935",
+      "type": "official government record",
+      "reference": "H.O.2829, 350/N.K./980 (HO 405/26764)",
+      "notes": "Based on a formal interview with André himself plus corroborating referees, bank records, and police files. The most contemporaneous and fact-checked source, but focused on residence/character/finances relevant to naturalisation — it is silent on Siberia and on any 1905 exile beyond a term of imprisonment."
+    },
+    {
+      "id": "serbianmedal",
+      "title": "Serbian 'Cross of Mercy' (Krst milosrđa) certificate, issued in the name of King Peter I of Serbia",
+      "type": "primary source document",
+      "reference": "F.M. No. 12643",
+      "date": "1915-08-25",
+      "notes": "Awarded for care of wounded and sick soldiers in the wars of 1912 and 1913 — note this predates WWI service and may relate to the Balkan Wars, or be a general-service Red Cross-type award issued during his 1915 Serbian service."
+    },
+    {
+      "id": "iwm",
+      "title": "Imperial War Museums, 'Lives of the First World War'",
+      "type": "curated public record aggregating multiple archival sources",
+      "url": "https://livesofthefirstworldwar.iwm.org.uk/lifestory/2282936",
+      "notes": "Aggregates a Medal Index Card, British Red Cross volunteer transcription, marriage index, 1939 Register, Mabel Stobart's own published account, and the National Archives naturalisation certificate reference. Licensed under the IWM Non-Commercial Licence — review before public reproduction."
+    }
+  ],
+
+  "waypoints": [
+    {
+      "id": "birth",
+      "order": 1,
+      "category": "birth",
+      "title": "Born at Repetz, Voronezh province",
+      "date": "1882-10-16",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Repetz (Repetz village), Voronezh province, Russia",
+        "lat": 51.672,
+        "lng": 39.184,
+        "locationConfidence": "approximate — pinned to Voronezh city as the nearest identifiable point; exact village not located"
+      },
+      "description": "Born on a peasant farm. A good singing voice won him a place at a Monastery school and later a Grammar School education.",
+      "sources": ["memoir", "specialbranch"]
+    },
+    {
+      "id": "1905-imprisonment",
+      "order": 2,
+      "category": "service",
+      "title": "Military call-up and imprisonment during the 1905 unrest",
+      "date": "1905",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Russia (exact location not recorded)",
+        "lat": 51.672,
+        "lng": 39.184,
+        "locationConfidence": "unknown — no location given in any source"
+      },
+      "description": "Called up for military training during the period of the Russian revolution of 1905. Sentenced to a term of imprisonment for taking part with other soldiers in preparing and presenting a petition to his commanding officer, contrary to regulations.",
+      "sources": ["specialbranch"],
+      "note": "The family memoir frames this same period as being 'sent to Siberia as a political prisoner' following involvement in student political activity leading up to what it calls 'the Karensky revolution' (almost certainly 1905, not Kerensky/1917). The 1935 police report — based on André's own sworn statement — describes a military petition and imprisonment but does not mention Siberia at all. Both cannot be fully reconciled from what survives."
+    },
+    {
+      "id": "siberia-exile",
+      "order": 3,
+      "category": "exile",
+      "title": "Siberian exile and Arctic escape (family account only)",
+      "date": "c.1905–1911",
+      "dateConfidence": "estimated — 'I believe this journey took several years' (memoir), bounded by the 1905 imprisonment and his documented 1911 departure to Belgium",
+      "location": {
+        "name": "Siberia — exact location unknown",
+        "lat": 66.53,
+        "lng": 66.60,
+        "locationConfidence": "family-oral-history-only — this pin is a best-guess placeholder near the Ob Gulf, one of the standard western Siberian exile regions in this period, not a documented location"
+      },
+      "description": "Family account: sent to Siberia as a political prisoner with a number of fellow students. He and a few others spent a long time preparing to escape — studying the tides of an Arctic sea inlet, getting fit, storing provisions — and in Spring attempted a crossing using their knowledge of the tides and their ability to swim and float. André was one of the few who succeeded.",
+      "sources": ["memoir"],
+      "confidence": "family-oral-history-only",
+      "note": "No official record confirms Siberian exile. Two real historical patterns fit the story: (1) western Siberian political exile near the Ob River/Arctic coast, the same region Trotsky was being sent to around this time before his own escape near Berezov; or (2) the Kola Peninsula/Murman coast in Russia's European Arctic, a well-documented escape route to Norway via Vardø, which better matches a narrow, tidal, swimmable inlet. Family memory may simply be using 'Siberia' loosely for 'the far north.' Treat this waypoint as illustrative, not factual, on the map."
+    },
+    {
+      "id": "albania",
+      "order": 4,
+      "category": "exile",
+      "title": "Reached Albania",
+      "date": "unknown, before 1911",
+      "dateConfidence": "family-oral-history-only",
+      "location": {
+        "name": "Albania — exact point of arrival unknown",
+        "lat": 41.153,
+        "lng": 20.168,
+        "locationConfidence": "approximate — centred on Albania generally; no specific town given"
+      },
+      "description": "Family account: after the escape, André eventually reached Albania, then worked his way north toward Belgium.",
+      "sources": ["memoir"],
+      "confidence": "family-oral-history-only",
+      "note": "Intriguingly, André was later awarded an 'Albanian Commemorative Medal' in 1920 (see the 'albanian-medal' waypoint below) for otherwise-unspecified war service. It's plausible the family's 'reached Albania' story has become entangled over time with this documented medal, or that there is a genuine independent Albanian connection the medal is only partial evidence of. Worth investigating further before treating either as settled."
+    },
+    {
+      "id": "liege-study",
+      "order": 5,
+      "category": "education",
+      "title": "Left Russia; studied engineering at Liège",
+      "date": "1911–1914",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Liège, Belgium",
+        "lat": 50.6326,
+        "lng": 5.5797,
+        "locationConfidence": "documented"
+      },
+      "description": "In 1911 he left Russia for Belgium. He was a student at Liège University until the outbreak of war. The family account adds that he also acquired a working knowledge of medicine somewhere along the way.",
+      "sources": ["specialbranch", "memoir"]
+    },
+    {
+      "id": "liege-hospital",
+      "order": 6,
+      "category": "service",
+      "title": "Worked as a hospital dresser near Liège",
+      "date": "1914-08 to 1914-12-01",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Near Liège, Belgium",
+        "lat": 50.62,
+        "lng": 5.58,
+        "locationConfidence": "approximate — 'a hospital near Liege', exact institution not named"
+      },
+      "description": "Following the outbreak of war he worked as a dresser at a hospital near Liège until 1 December 1914.",
+      "sources": ["specialbranch"]
+    },
+    {
+      "id": "refugee-uk",
+      "order": 7,
+      "category": "location",
+      "title": "Arrived in the United Kingdom as a refugee",
+      "date": "1914-12-20 to 1915-04",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Earls Court refugee camp, London, UK",
+        "lat": 51.4914,
+        "lng": -0.1936,
+        "locationConfidence": "documented"
+      },
+      "description": "Arrived in the UK on 20 December 1914 with other refugees from Rotterdam and remained at a refugee camp at Earls Court until April 1915.",
+      "sources": ["specialbranch"],
+      "note": "The family memoir instead frames this as obtaining 'a permit to travel to Russia via England' in 1915 while still in Belgium — a softer framing than the official record's account of fleeing as a war refugee. Likely the same episode, remembered differently."
+    },
+    {
+      "id": "serbia-service",
+      "order": 8,
+      "category": "service",
+      "title": "Served with Mrs Stobart's medical unit in Serbia",
+      "date": "1915-04-03 to 1915-12",
+      "dateConfidence": "documented — corroborated independently by the police report, Mabel Stobart's own published account, and his Red Cross record card",
+      "location": {
+        "name": "Serbia (region '2a')",
+        "lat": 44.7866,
+        "lng": 20.4489,
+        "locationConfidence": "approximate — pinned to Belgrade; the specific towns Mrs Stobart's unit operated in during the 1915 retreat are not given in the sources to hand"
+      },
+      "description": "Went to Serbia as a dresser and hospital orderly with Mrs Stobart's Unit — 3rd, under the Serbian Relief Fund's 'Other Empire Force.' Held a diploma from the Joint Committee of the British Red Cross Society and the Order of St John of Jerusalem for valuable service during the war.",
+      "sources": ["specialbranch", "iwm", "serbianmedal"],
+      "note": "The family memoir dates this service to 'most of 1916' — but three independent, more contemporaneous sources agree on April–December 1915. This is very likely a minor error in family memory rather than a real discrepancy."
+    },
+    {
+      "id": "chelsea-address",
+      "order": 9,
+      "category": "location",
+      "title": "Registered address while serving with the relief fund",
+      "date": "1915",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "c/o Miss Diblee, 25 Margareta Terrace, Chelsea, London",
+        "lat": 51.4875,
+        "lng": -0.1734,
+        "locationConfidence": "documented"
+      },
+      "description": "Recorded 'away from home' address in 1915, likely an administrative or correspondence address connected to the Serbian Relief Fund rather than a residence.",
+      "sources": ["iwm"]
+    },
+    {
+      "id": "serbian-medal",
+      "order": 10,
+      "category": "award",
+      "title": "Awarded the Serbian Cross of Mercy",
+      "date": "1915-08-25",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Belgrade, Serbia",
+        "lat": 44.8225,
+        "lng": 20.4487,
+        "locationConfidence": "documented — certificate issued in Belgrade"
+      },
+      "description": "Awarded the Krst milosrđa (Cross of Mercy) in the name of King Peter I of Serbia, for care given to wounded and sick soldiers in the wars of 1912 and 1913.",
+      "sources": ["serbianmedal"],
+      "media": ["serbian-medal-certificate.jpg"]
+    },
+    {
+      "id": "russian-relief-committee",
+      "order": 11,
+      "category": "employment",
+      "title": "Senior clerk, Russian Relief Committee",
+      "date": "1916-02-02 to 1918-05-31",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "India House, Kingsway, London",
+        "lat": 51.5136,
+        "lng": -0.1195,
+        "locationConfidence": "documented"
+      },
+      "description": "Employed as senior clerk in the permit section of the commercial department of the Russian Relief Committee. Obtained exemption from Russian military service in 1917 — fortunate timing, given the Russian Revolution that year.",
+      "sources": ["specialbranch", "memoir"]
+    },
+    {
+      "id": "birmingham",
+      "order": 12,
+      "category": "education",
+      "title": "Studied electrical engineering at Birmingham University",
+      "date": "1918-09 to 1919-07",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Birmingham, UK",
+        "lat": 52.4508,
+        "lng": -1.9305,
+        "locationConfidence": "documented"
+      },
+      "description": "Took a course in electrical engineering.",
+      "sources": ["specialbranch"]
+    },
+    {
+      "id": "relief-committee-wind-down",
+      "order": 13,
+      "category": "employment",
+      "title": "Wound up the affairs of the Russian Relief Committee",
+      "date": "1919-08 to 1920-12",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "London, UK",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "locationConfidence": "approximate"
+      },
+      "description": "Employed in a clerical capacity winding up the Russian Relief Committee.",
+      "sources": ["specialbranch"]
+    },
+    {
+      "id": "marriage",
+      "order": 14,
+      "category": "marriage",
+      "title": "Married Enid Pyemont",
+      "date": "1920-11-26",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Lewisham Register Office, London",
+        "lat": 51.4452,
+        "lng": -0.0209,
+        "locationConfidence": "documented"
+      },
+      "description": "Married Enid Pyemont, a British-born subject. Her family — the Oldrinis of Beeston, Nottinghamshire — is a separate genealogical thread worth following up.",
+      "sources": ["specialbranch", "iwm"]
+    },
+    {
+      "id": "albanian-medal",
+      "order": 15,
+      "category": "award",
+      "title": "Awarded the Albanian Commemorative Medal",
+      "date": "1920-04-05",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Not specified",
+        "lat": 41.153,
+        "lng": 20.168,
+        "locationConfidence": "unknown — award record gives no location"
+      },
+      "description": "Awarded the Albanian Commemorative Medal, classed as an 'Other War Service Award.'",
+      "sources": ["iwm"],
+      "note": "See the note on the 'albania' waypoint above — possible (unconfirmed) connection to the family's Albania escape story."
+    },
+    {
+      "id": "jewellery-business",
+      "order": 16,
+      "category": "employment",
+      "title": "Ran a jewellery-making business",
+      "date": "1921–1923",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "London, UK (home address)",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "locationConfidence": "approximate — home address at the time not specified"
+      },
+      "description": "Earned his living making articles in metal, silver, and decorative stones into Russian peasant designs, worked from home.",
+      "sources": ["specialbranch", "memoir"]
+    },
+    {
+      "id": "arcos",
+      "order": 17,
+      "category": "employment",
+      "title": "Accountant, All Union Textile Syndicate / Arcos",
+      "date": "1923-12 to 1932-07",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "King William Street, then Wilson Street, then Bush House, Strand, London",
+        "lat": 51.5115,
+        "lng": -0.1178,
+        "locationConfidence": "approximate — pinned to Bush House, his last known office there"
+      },
+      "description": "Worked as secretary and later accountant for the All Union Textile Syndicate, absorbed into Arcos in 1927. Discharged in July 1932 amid reorganisation, after declining a verbal suggestion that he return to Russia.",
+      "sources": ["specialbranch"]
+    },
+    {
+      "id": "tobacco-business",
+      "order": 18,
+      "category": "employment",
+      "title": "Established tobacco/cigarette-machine business",
+      "date": "1932 onward",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "4 Selby Road, Anerley, London",
+        "lat": 51.4090,
+        "lng": -0.0679,
+        "locationConfidence": "documented"
+      },
+      "description": "Became a wholesale tobacconist, installing and servicing cigarette machines in private houses; ran the business from his home address. By 1935 he had roughly 300 customers.",
+      "sources": ["specialbranch", "memoir"]
+    },
+    {
+      "id": "naturalisation",
+      "order": 19,
+      "category": "naturalisation",
+      "title": "Naturalised as a British subject",
+      "date": "1935-11-26",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "London, UK",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "locationConfidence": "approximate"
+      },
+      "description": "Naturalisation certificate granted (HO 334/139/6649), following a favourable Special Branch report dated 15 October 1935. Later changed the family name from Korobeinikoff to Korbey.",
+      "sources": ["specialbranch", "iwm", "memoir"]
+    },
+    {
+      "id": "death",
+      "order": 20,
+      "category": "death",
+      "title": "Died at Anerley",
+      "date": "1953-03-02",
+      "dateConfidence": "documented",
+      "location": {
+        "name": "Anerley, Kent, UK",
+        "lat": 51.4090,
+        "lng": -0.0679,
+        "locationConfidence": "documented"
+      },
+      "description": "Died at Anerley, Kent — the same address, 4 Selby Road, where he had lived and run his business since 1932.",
+      "sources": ["iwm"]
+    },
+    {
+      "id": "kalemegdan-postscript",
+      "order": 21,
+      "category": "postscript",
+      "title": "A descendant sees his picture in Belgrade",
+      "date": "unknown, decades after André's death",
+      "dateConfidence": "family-oral-history-only",
+      "location": {
+        "name": "Kalemegdan Fortress, Belgrade, Serbia",
+        "lat": 44.8225,
+        "lng": 20.4487,
+        "locationConfidence": "documented — named directly in the memoir"
+      },
+      "description": "The memoir's author recounts a family visit to Yugoslavia, where her husband's work took him, and seeing a photograph of Mrs Stobart's medical mission — including André — displayed at a museum believed to be at Kalemegdan, one of the oldest fortifications in the country.",
+      "sources": ["memoir"],
+      "note": "This is not part of André's own life timeline — it's a later family episode. Consider handling it on the site as an epilogue/postscript rather than a stop on his personal journey map."
+    }
+  ]
+}
